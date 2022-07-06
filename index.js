@@ -13,3 +13,7 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/home/home.html'))
 })
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '/services/services.html'))
+})
