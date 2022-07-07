@@ -10,6 +10,6 @@ app.listen(PORT, () => {
   console.log(`API listening on PORT ${PORT} `)
 })
 
-app.get('/', (req, res) => {
+app.get('/login', (req, res) => {
   res.sendFile(path.join(__dirname, '/login-route/login-route.html'))
 })
