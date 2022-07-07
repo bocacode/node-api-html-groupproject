@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 25px;
+    color: lavenderblush;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: blueviolet;
+    background: linear-gradient(45deg, rgb(151, 70, 226) 0%, rgb(64, 21, 105) 50%, rgb(34, 12, 55) 100%);
+}
+
+img {
+    padding: 25px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    border:  1px solid lavenderblush;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+a {
+    color: antiquewhite;
+    margin-bottom: 2px;
+    padding-bottom: 0;
+}
